@@ -2,7 +2,7 @@
   "name": "bnb-trading-bot",
   "version": "1.0.0",
   "description": "Bot trading otomatis untuk BNB dan koin-koin yang berhubungan dengan BNB dengan notifikasi Telegram",
-  "main": "enhanced_bnb_trading_bot.js",
+  "main": "tradingbot_v2.js",
   "type": "module",
   "scripts": {
     "start": "node enhanced_bnb_trading_bot.js",
