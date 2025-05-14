@@ -260,6 +260,5 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanj
 
 ## 📞 Kontak
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - [email@example.com](mailto:email@example.com)
+Your Name - [@JoestarMojo](https://t.me/JoestarMojo) - [mohamadarifinh@gmail.com](mailto:mohamadarifinh@gmail.com)
 
-Project Link: [https://github.com/username/bnb-trading-bot](https://github.com/username/bnb-trading-bot)
