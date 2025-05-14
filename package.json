@@ -1,0 +1,38 @@
+{
+  "name": "bnb-trading-bot",
+  "version": "1.0.0",
+  "description": "Bot trading otomatis untuk BNB dan koin-koin yang berhubungan dengan BNB dengan notifikasi Telegram",
+  "main": "enhanced_bnb_trading_bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node enhanced_bnb_trading_bot.js",
+    "dev": "nodemon enhanced_bnb_trading_bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binance",
+    "trading-bot",
+    "cryptocurrency",
+    "bnb",
+    "telegram-bot",
+    "automated-trading",
+    "crypto-trading"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "technicalindicators": "^3.1.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "moment": "^2.29.4",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
