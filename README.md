@@ -45,7 +45,7 @@ Berikut adalah penjelasan untuk setiap parameter konfigurasi di file `.env`:
 
 ### Konfigurasi Trading Pairs
 
-Buka file `enhanced_bnb_trading_bot.js` dan sesuaikan daftar trading pairs di bagian konfigurasi:
+Buka file `tradingbot_v2.js` dan sesuaikan daftar trading pairs di bagian konfigurasi:
 
 ```javascript
 // Daftar koin yang berhubungan dengan BNB untuk dipantau
@@ -135,7 +135,7 @@ Untuk menjalankan bot secara terus-menerus di server, gunakan [PM2](https://pm2.
 npm install -g pm2
 
 # Jalankan bot dengan PM2
-pm2 start enhanced_bnb_trading_bot.js --name "bnb-trading-bot"
+pm2 start tradingbot_v2.js --name "bnb-trading-bot"
 
 # Lihat status bot
 pm2 status
@@ -522,7 +522,7 @@ Saat ini, bot ini hanya mendukung Binance. Untuk mendukung exchange lain, perlu 
 
 ### 6. Bagaimana cara menambahkan koin baru untuk dipantau?
 
-Tambahkan koin baru ke daftar `tradingPairs` di file `enhanced_bnb_trading_bot.js`:
+Tambahkan koin baru ke daftar `tradingPairs` di file `tradingbot_v2.js`:
 
 ```javascript
 tradingPairs: [
@@ -613,7 +613,7 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanj
 
 ## 📞 Kontak
 
-Your Name - [@JoestarMojo](https://t.me/JoestarMojo) 
+AFIN - [@JoestarMojo](https://t.me/JoestarMojo) 
 
 Project Link: [https://github.com/Afinnn954/TradingBOT](https://github.com/Afinnn954/TradingBOT)
 
